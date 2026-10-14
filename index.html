@@ -26,7 +26,7 @@
       background-color: var(--bg-dark);
       color: var(--text-light);
       font-family: 'Georgia', 'Times New Roman', serif;
-      overflow: hidden; /* Managed by the scroll-snap container */
+      overflow: hidden;
     }
 
     /* Fixed Header Navigation */
@@ -164,6 +164,11 @@
       display: block;
     }
 
+    .single-media-center {
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
     .costume-showcase {
       display: flex;
       flex-direction: column;
@@ -201,20 +206,6 @@
 
     .stanza-grid .info-card {
       margin-bottom: 0;
-    }
-
-    .custom-lyrics-area {
-      width: 100%;
-      height: 65px;
-      background: #120b0b;
-      color: var(--text-light);
-      border: 1px solid var(--border-subtle);
-      border-radius: 6px;
-      padding: 0.6rem;
-      font-family: inherit;
-      font-size: 0.9rem;
-      margin-top: 0.4rem;
-      resize: none;
     }
 
     .timeline-cards {
@@ -287,11 +278,11 @@
   <header>
     <div class="brand">Paris Paloma — "Labour"</div>
     <div class="nav-dots">
-      <button class="dot active" onclick="scrollToSlide(0)">1. Artist & Context</button>
-      <button class="dot" onclick="scrollToSlide(1)">2. Video & Lyrics</button>
-      <button class="dot" onclick="scrollToSlide(2)">3. Traditional Clothing</button>
-      <button class="dot" onclick="scrollToSlide(3)">4. Patriarchal Society</button>
-      <button class="dot" onclick="scrollToSlide(4)">5. Say STOP Now</button>
+      <button class="dot active" onclick="scrollToSlide(0)">I. Artist & Context</button>
+      <button class="dot" onclick="scrollToSlide(1)">II. Video & Lyrics</button>
+      <button class="dot" onclick="scrollToSlide(2)">III. Traditional Clothing</button>
+      <button class="dot" onclick="scrollToSlide(3)">IV. Patriarchal Society</button>
+      <button class="dot" onclick="scrollToSlide(4)">V. Say STOP Now</button>
     </div>
   </header>
 
@@ -381,60 +372,57 @@
                 </p>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-            
-<section class="slide-page" data-index="II">
+    <!-- SLIDE III: TRADITIONAL CLOTHING & COSTUME SYMBOLISM -->
+    <section class="slide-page" data-index="2">
       <div class="slide-card">
-        <h1>Slide II: Official Music Video & Thematic Study of the Lyrics</h1>
-        <h2>Hosted Video & Stanza-by-Stanza Breakdown</h2>
+        <h1>Slide III: Traditional Clothing — Amplifying the Moral & Power of Her Message</h1>
+        <h2>How Historical Attire Reinforces the Critique of Domestic Servitude</h2>
 
         <div class="grid-2">
-          <div>
+          <div class="costume-showcase">
             <div class="media-frame">
-              <video id="localVideo" controls>
-                <source src="Paris Paloma - labour [Official Video].mp4" type="video/mp4">
-                Your browser does not support the HTML5 video tag.
-              </video>
-              <div class="caption">Official Video hosted locally: Paris Paloma - labour [Official Video].mp4</div>
+              <img class="costume-crop-1" src="Paris-Paloma-Labour-music-video-2822365245.jpg" alt="Traditional white linen chemise and red bodice in the Labour video">
+              <div class="caption">Period Attire in the Video: White linen chemise, structured red bodice, and antique pendant</div>
+            </div>
+
+            <div class="media-frame">
+              <img class="costume-crop-2" src="8D.png" alt="Vintage traditional collar dress worn by Paris Paloma">
+              <div class="caption">Stage & Portrait Attire: Vintage high-collared dress evoking historical modesty and folklore</div>
             </div>
           </div>
 
           <div>
-            <div class="stanza-grid">
-              <div class="info-card">
-                <h3>Verse 1: Isolation & Unseen Work</h3>
-                <p>
-                  The narrator questions why her partner isolates her while she performs endless physical chores alone—tending the orchard, fixing the home, and fetching water—under his emotional mistreatment.
-                </p>
-              </div>
+            <div class="info-card">
+              <h3>1. Visualizing the Moral Through Traditional Dress</h3>
+              <p>
+                In the music video, Paris Paloma wears a <strong>traditional medieval/Renaissance peasant outfit</strong>: a loose white linen chemise with wide sleeves layered under a tight crimson bodice. This costume visually reinforces the moral of her song: even in the modern world, domestic expectations reduce women to the status of historical servants.
+              </p>
+            </div>
 
-              <div class="info-card">
-                <h3>Chorus: Physical Exhaustion</h3>
-                <p>
-                  Seeing her burst eye capillaries and cracked hands, she realizes the man she thought was her savior is exploiting her, asking if ending their love could truly be worse than silent servitude.
-                </p>
-              </div>
+            <div class="info-card">
+              <h3>2. Contrasting Period Clothes with Modern Words</h3>
+              <p>
+                By wearing centuries-old traditional clothing while singing modern expressions (such as <em>"therapist"</em>, <em>"24/7 baby machine"</em>, and <em>"weaponised incompetence"</em>), she creates a striking anachronism. It proves that while fashion and centuries have changed, the patriarchal demand for unpaid female labour remains the same.
+              </p>
+            </div>
 
-              <div class="info-card">
-                <h3>Verse 2: Feigned Helplessness</h3>
-                <p>
-                  She exposes his calculated helplessness as disguised dominance and realizes that if they had a daughter, he would enslave her to the exact same fate—triggering her need to run.
-                </p>
-              </div>
-
-              <div class="info-card">
-                <h3>Bridge: The Imposed Roles</h3>
-                <p>
-                  She lists the exhausting roles demanded of her 24/7: therapist, mother, maid, object of desire, virgin nurse, servant, and reproductive vessel so he can live out his dreams without lifting a finger.
-                </p>
-              </div>
+            <div class="info-card">
+              <h3>3. Turning a Uniform of Obedience into Power</h3>
+              <p>
+                Traditionally, the spotless white blouse and laced bodice symbolize female purity, domestic obedience, and social restraint. When she stains this white garment with dark red pomegranate juice at the end of the video, she subverts the costume—transforming a symbol of servitude into an armor of rebellion and self-empowerment.
+              </p>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- SLIDE 4: SOCIAL CONTROL & PATRIARCHAL SOCIETY ACROSS CENTURIES -->
+    <!-- SLIDE IV: SOCIAL CONTROL & PATRIARCHAL SOCIETY ACROSS CENTURIES -->
     <section class="slide-page" data-index="3">
       <div class="slide-card">
         <h1>Slide IV: Social Control & Patriarchal Society Across Centuries</h1>
@@ -476,15 +464,16 @@
       </div>
     </section>
 
-    <!-- SLIDE 5: END PICTURES - SAYING STOP NOW -->
+    <!-- SLIDE V: END PICTURE - SAYING STOP NOW -->
     <section class="slide-page" data-index="4">
       <div class="slide-card">
         <h1>Slide V: Visual Climax — Saying "STOP" to Centuries of Control</h1>
         <h2>Reclaiming Power, Subverting Myth, and Leaving the Table</h2>
 
+        <div class="single-media-center">
           <div class="media-frame">
             <img src="Screenshot_2026-10-13_23-05-27.png" alt="Paris Paloma holding the pomegranate">
-            <div class="caption">2. The Pomegranate: Reclaiming bodily autonomy and desire</div>
+            <div class="caption">The Pomegranate: Reclaiming bodily autonomy and desire</div>
           </div>
         </div>
 
@@ -532,7 +521,7 @@
           });
           indicator.textContent = `Slide ${currentSlide + 1} of ${slidePages.length}`;
 
-          // Automatically pause video if user scrolls away from Slide 2
+          // Automatically pause video if user scrolls away from Slide II
           if (currentSlide !== 1 && video && !video.paused) {
             video.pause();
           }
@@ -551,7 +540,7 @@
       e.preventDefault();
 
       if (isWheeling) return;
-      if (Math.abs(e.deltaY) < 15) return; // Ignore tiny touchpad tremors
+      if (Math.abs(e.deltaY) < 15) return;
 
       isWheeling = true;
       if (e.deltaY > 0) {
